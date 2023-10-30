@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
-TOKEN_API = '5644718551:AAERzY8iR9rK9PYJqH13tzXcS_dmt4Jv8XY'
+TOKEN_API = ''
 bot = Bot(TOKEN_API)
 dp = Dispatcher(bot)
 number = 0
