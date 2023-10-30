@@ -16,7 +16,7 @@ PHOTOS = ["https://vsegda-pomnim.com/uploads/posts/2022-04/1649671638_101-vsegda
           "https://chudo-prirody.com/uploads/posts/2021-08/1628831756_77-p-foto-kotiki-obnimayutsya-82.jpg"]
 CAPTION = ["Котик 1.", "Котик 2.", "Котик 3.", "Котик 4.", "Котик 5."]
 pht_lig = dict(zip(PHOTOS, CAPTION))
-TOKEN_API = '5644718551:AAERzY8iR9rK9PYJqH13tzXcS_dmt4Jv8XY'
+TOKEN_API = ''
 bot = Bot(TOKEN_API)
 dp = Dispatcher(bot)
 random_photo = random.choice(list(pht_lig.keys()))
